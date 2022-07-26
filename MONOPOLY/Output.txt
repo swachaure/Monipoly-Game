@@ -1,11 +1,18 @@
 ###########################################################################################
 
-
 					Welcome to monopoly game
-		 Four player are loaded [ Billy,Charlotte,Peter,Sweedal ]
 
-			 Board loaded with options like as below
+###########################################################################################
 
+Your options are as below
+Simulate Game (Press 1 for simulate game)
+Exit from Game (Press 2 for exit game)
+1
+********************************************************************************************
+You've Started simulating the monopoly game
+Four player are loaded [ Billy,Charlotte,Peter,Sweedal ]
+
+Board loaded with spaces like as below
 -------------------------------------------------------------------------------------------
 Name :- GO	|	Type :- go	|
 -------------------------------------------------------------------------------------------
@@ -24,12 +31,7 @@ Name :- YOMG	|	Type :- property	|	Price :- 3$	|	 Color :- Green	|
 Name :- Gami Chicken	|	Type :- property	|	Price :- 4$	|	 Color :- Blue	|
 -------------------------------------------------------------------------------------------
 Name :- Massizim	|	Type :- property	|	Price :- 4$	|	 Color :- Blue	|
-###########################################################################################
-Your options are as below
-Simulate Game (Press 1 for start game)
-Exit from Game (Press 2 for exit game)
-1
-You've Started the monopoly game
+********************************************************************************************
 -------------------------------------------------------------------------------------------
 Peter Bought YOMG For Price ( 3$ )
 Billy Bought Betty's Burgers For Price ( 3$ )
@@ -167,13 +169,13 @@ Player 4's Turn ( 48 ) Dice 1 ( 3 ) Dice 2 ( 2 ) Total ( 5 ) Current Position ( 
 ###########################################################################################
 ********************************************************************************************
 
-						Game Completed
+						Game Over
 						--------------
 
-			* * *  1. Peter's Balance ( 8 )	 	 * * * 
-			* * *  2. Billy's Balance ( 41 ) 	 * * * 
-			* * *  3. Charlotte's Balance ( -2 ) * * * 
-			* * *  4. Sweedal's Balance ( 5 )	 * * * 
+			* * *  1. Peter's Balance ( 8 )	 	 * * *
+			* * *  2. Billy's Balance ( 41 ) 	 * * *
+			* * *  3. Charlotte's Balance ( -2 ) * * *
+			* * *  4. Sweedal's Balance ( 5 )	 * * *
 
 			* * * Owned Properties By Peter Are ( YOMG ) * * *
 			* * * Owned Properties By Billy Are ( Betty's Burgers,Massizim,Gami Chicken,Lanzhou Beef Noodle ) * * *
@@ -185,5 +187,10 @@ Player 4's Turn ( 48 ) Dice 1 ( 3 ) Dice 2 ( 2 ) Total ( 5 ) Current Position ( 
 
 ********************************************************************************************
 ###########################################################################################
+-------------------------------------------------------------------------------------------
+Your options are as below
+Simulate Game (Press 1 for simulate game)
+Exit from Game (Press 2 for exit game)
+2
 
 Process finished with exit code 0

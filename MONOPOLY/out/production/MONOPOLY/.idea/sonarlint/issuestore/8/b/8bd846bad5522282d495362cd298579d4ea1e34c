@@ -1,0 +1,55 @@
+
+`
+java:S1192L"JDefine a constant instead of duplicating this literal "Charlotte" 4 times.(åÎò‘
+l
+java:S1192†"UDefine a constant instead of duplicating this literal " Current Position ( " 4 times.(å«ÏÜ
+f
+java:S1192…"JDefine a constant instead of duplicating this literal "Dice 2 ( " 4 times.(Í‚Ê”ıÿÿÿÿ
+c
+java:S1192M"HDefine a constant instead of duplicating this literal "Sweedal" 3 times.(ĞÚóôúÿÿÿÿ
+i
+java:S1192…"MDefine a constant instead of duplicating this literal " ) Dice 1 ( " 4 times.(Í‚Ê”ıÿÿÿÿ
+a
+java:S1192K"FDefine a constant instead of duplicating this literal "Billy" 5 times.(ì•´üÿÿÿÿ
+f
+java:S1192…"JDefine a constant instead of duplicating this literal " Total ( " 4 times.(Í‚Ê”ıÿÿÿÿ
+a
+java:S1192J"FDefine a constant instead of duplicating this literal "Peter" 4 times.(‘Òåøÿÿÿÿ
+Y
+java:S2589B"7Remove this expression which always evaluates to "true"(òª¥úüÿÿÿÿ8Š¨ËÃ£0
+]	java:S125"<This block of commented-out lines of code should be removed.(ŒŸ¦³øÿÿÿÿ8Ü°¹Ã£0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İÛó
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óß‚äúÿÿÿÿ8ğŒ¹Ã£0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ïç›¯ÿÿÿÿÿ8Ø§ÊÃ£0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(£˜Ğë8Ø§ÊÃ£0
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(‰²è¨üÿÿÿÿ8Õ¾ÊÃ£0
+B
+java:S3457*"%String contains no format specifiers.(©Šöâ8š¨ËÃ£0
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(©Šöâ8Ø§ÊÃ£0
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Õ¾ÊÃ£0
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ûéòüÿÿÿÿ8Õ¾ÊÃ£0
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(Ü¾şÑ8Õ¾ÊÃ£0
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(Í‚Ê”ıÿÿÿÿ8İæÊÃ£0
+V	java:S106‡"9Replace this use of System.out or System.err by a logger.(×ßÃØ8ª¨ËÃ£0
+V	java:S106‰"9Replace this use of System.out or System.err by a logger.(ıÕŠÚ8ª¨ËÃ£0
+U	java:S106Œ"9Replace this use of System.out or System.err by a logger.(Ï÷8ª¨ËÃ£0
+^	java:S125‘"<This block of commented-out lines of code should be removed.(´£ç‚øÿÿÿÿ8ª¨ËÃ£0
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª¨ËÃ£0
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(ÁÃ‚Íüÿÿÿÿ8ª¨ËÃ£0
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(§ÁÛéıÿÿÿÿ8ª¨ËÃ£0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª¨ËÃ£0
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(êÜòşÿÿÿÿ8ª¨ËÃ£0
+[	java:S106 "9Replace this use of System.out or System.err by a logger.(É¢öÀıÿÿÿÿ8ª¨ËÃ£0
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(í€¥öùÿÿÿÿ8ª¨ËÃ£0
+V	java:S106¢"9Replace this use of System.out or System.err by a logger.(îè™÷8ª¨ËÃ£0
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª¨ËÃ£0
+[	java:S106©"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª¨ËÃ£0
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(§ôšİ8ª¨ËÃ£0
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(š¥Ï«8ª¨ËÃ£0
+[	java:S106²"9Replace this use of System.out or System.err by a logger.(äå£Ùúÿÿÿÿ8ª¨ËÃ£0
+U	java:S106µ"9Replace this use of System.out or System.err by a logger.(’á¿8ª¨ËÃ£0
+V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(ÿåù¸8æ¬ÙÃ£0
+[	java:S106É"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•ÇÛÃ£0
