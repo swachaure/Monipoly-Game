@@ -1,0 +1,52 @@
+
+This application has been supported for java 8+ versions . This application can be start from running Monopoly class main method.
+We  are using third party library jackson for parsing json because it easily provides classes to parse teh json directly from json. So ObjectMapper is class of jackson..
+    For this you will need added three jar files And you will need to add those into classpath.
+Note:- Don't remove out folder, I've configured it in such a way you will not need to generate class file of it.
+----------------------------------------------------------------------------------------------------------------
+
+1. Monopoly Class
+    I've taken Board static instance because if we will take new instance every time we won't get older values of Board positions and all.
+    Then I took four variables for balance of each players.
+    Then in main method first I added a do while loop for options like start a game or exit a game.
+    If we choose 1 it will start a game and call start() function otherwise it will directly exit from right there.
+    Every json files are stored in HashMap starting index with 1, so it can be easily counted in human manner. That's why forloop inside
+        start() method is starting from 1 to 48 which is the most divisible number of rolls according to files.
+    We stored all json objects into HashMap because it enables us to get the data easily from it by using key value pair.
+2. Board Class
+    It has been used for maintaining all values and procedures of board.
+    Board is having propertiesMap which is holding all spaces information, players Map which is holding all players information, and all current positions variables
+        stores current positions of players
+    We used Board's singleton instance pattern.
+    Setters of position variables (i.e, methods setCurrentPosOfPlayer1,setCurrentPosOfPlayer2,setCurrentPosOfPlayer3,setCurrentPosOfPlayer4) is used for
+        setting current positions of players.
+        We are adding old value and new value then checking if it exceeds limit of 9 then we are subtracting those denominators with current value because this will
+        be rotated once one cycle will be completed.
+     Method assignProperty is used for owning property and paying a rent to others. In this we checked if current is 1 then it is at Go so we are just adding
+        1$ in a balance. in else we are checking if it's owned property then we are paying a rent otherwise we owe that property. For that we made two methods
+        at Player class that we will see below.
+     Method addPropertiesToBoard used to parse board.json file and store it to map for getting spaces.
+     Methods of print are used for printing outputs we made methods , so we can utilize it more than once.
+     Method getBalance is used for getting balance of player.
+3. Property
+   This class is for Property which is having variables like name,type,color,price basically it is for board.json single object. We used encapsulation i.e, private members and
+    getters and setters for accessing and setting properties
+4. Rolls
+    This class is having two HashMaps which is storing all values of rolls1.json and rolls2.json for easily traversal.
+    Method loadRolls will parse rolls1.json and rolls2.json and store it into internal maps.
+5. Player
+    Method ownProperty is owning property from board which is basically deducting money from balance and adding properties to ownedProperties List
+    Method payRent is used for paying a rent to other player. It will also deduct money from balance.
+    Method takeRent is used for taking rent from other player. It will also add money to balance. We kept these two pay nd take code in different methods because extension of
+        other functionalities if they provide you to extend this test.
+6. Utility
+    Methods are for printing starts , dash, hashes.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+You can run it by installing intel ij idea of jetbrains
+    unzip the folder open Monopoly folder into it. run main method of Monopoly class. I'm including a jpeg file (intelij_idea_run_setting.png)
+    of setting in a zip.
+Output file is having output of this program.
+
+---------------------------------------------------------------------------------------------------------------------------
