@@ -5,9 +5,152 @@
 ###########################################################################################
 
 Your options are as below
-Simulate Game (Press 1 for simulate game)
-Exit from Game (Press 2 for exit game)
+Simulate Game (Press 1 for simulate game of rolls1)
+Simulate Game (Press 2 for simulate game of rolls2)
+Exit from Game (Press 3 for exit game)
 1
+********************************************************************************************
+You've Started simulating the monopoly game
+Four player are loaded 2[ Billy,Charlotte,Peter,Sweedal ]
+
+Board loaded with spaces like as below
+-------------------------------------------------------------------------------------------
+Name :- GO	|	Type :- go	|
+-------------------------------------------------------------------------------------------
+Name :- The Burvale	|	Type :- property	|	Price :- 1$	|	 Color :- Brown	|
+-------------------------------------------------------------------------------------------
+Name :- Fast Kebabs	|	Type :- property	|	Price :- 1$	|	 Color :- Brown	|
+-------------------------------------------------------------------------------------------
+Name :- The Grand Tofu	|	Type :- property	|	Price :- 2$	|	 Color :- Red	|
+-------------------------------------------------------------------------------------------
+Name :- Lanzhou Beef Noodle	|	Type :- property	|	Price :- 2$	|	 Color :- Red	|
+-------------------------------------------------------------------------------------------
+Name :- Betty's Burgers	|	Type :- property	|	Price :- 3$	|	 Color :- Green	|
+-------------------------------------------------------------------------------------------
+Name :- YOMG	|	Type :- property	|	Price :- 3$	|	 Color :- Green	|
+-------------------------------------------------------------------------------------------
+Name :- Gami Chicken	|	Type :- property	|	Price :- 4$	|	 Color :- Blue	|
+-------------------------------------------------------------------------------------------
+Name :- Massizim	|	Type :- property	|	Price :- 4$	|	 Color :- Blue	|
+********************************************************************************************
+-------------------------------------------------------------------------------------------
+Peter Bought The Burvale For Price ( 1$ )
+Billy Bought The Grand Tofu For Price ( 2$ )
+( 1$ ) Rent Paid for property The Burvale [ Charlotte -> Peter ]
+( 1$ ) Rent Received for property The Burvale [ Charlotte -> Peter ]
+( 1$ ) Rent Paid for property The Burvale [ Sweedal -> Peter ]
+( 1$ ) Rent Received for property The Burvale [ Sweedal -> Peter ]
+Player 1's Turn ( 1 ) Dice 1 ( 1 )  Total ( 2 ) Current Position ( The Burvale ) Peter's Balance ( 17 )
+Player 2's Turn ( 2 ) Dice 1 ( 3 )  Total ( 4 ) Current Position ( The Grand Tofu ) Billy's Balance ( 14 )
+Player 3's Turn ( 3 ) Dice 1 ( 1 )  Total ( 2 ) Current Position ( The Burvale ) Charlotte's Balance ( 15 )
+Player 4's Turn ( 4 ) Dice 1 ( 1 )  Total ( 2 ) Current Position ( The Burvale ) Sweedal's Balance ( 15 )
+-------------------------------------------------------------------------------------------
+Peter Bought Fast Kebabs For Price ( 1$ )
+Billy Bought Betty's Burgers For Price ( 3$ )
+( 3$ ) Rent Paid for property Betty's Burgers [ Charlotte -> Billy ]
+( 3$ ) Rent Received for property Betty's Burgers [ Charlotte -> Billy ]
+( 2$ ) Rent Paid for property The Grand Tofu [ Sweedal -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Sweedal -> Billy ]
+Player 1's Turn ( 5 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( Fast Kebabs ) Peter's Balance ( 16 )
+Player 2's Turn ( 6 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Betty's Burgers ) Billy's Balance ( 16 )
+Player 3's Turn ( 7 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Betty's Burgers ) Charlotte's Balance ( 12 )
+Player 4's Turn ( 8 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( The Grand Tofu ) Sweedal's Balance ( 13 )
+-------------------------------------------------------------------------------------------
+Peter Bought Massizim For Price ( 4$ )
+( 4$ ) Rent Paid for property Massizim [ Billy -> Peter ]
+( 4$ ) Rent Received for property Massizim [ Billy -> Peter ]
+( 1$ ) Rent Paid for property The Burvale [ Charlotte -> Peter ]
+( 1$ ) Rent Received for property The Burvale [ Charlotte -> Peter ]
+( 3$ ) Rent Paid for property Betty's Burgers [ Sweedal -> Billy ]
+( 3$ ) Rent Received for property Betty's Burgers [ Sweedal -> Billy ]
+Player 1's Turn ( 9 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Massizim ) Peter's Balance ( 17 )
+Player 2's Turn ( 10 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( Massizim ) Billy's Balance ( 15 )
+Player 3's Turn ( 11 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( The Burvale ) Charlotte's Balance ( 11 )
+Player 4's Turn ( 12 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Betty's Burgers ) Sweedal's Balance ( 10 )
+-------------------------------------------------------------------------------------------
+( 1$ ) Rent Paid for property The Burvale [ Peter -> Peter ]
+( 1$ ) Rent Received for property The Burvale [ Peter -> Peter ]
+( 1$ ) Rent Paid for property The Burvale [ Billy -> Peter ]
+( 1$ ) Rent Received for property The Burvale [ Billy -> Peter ]
+( 3$ ) Rent Paid for property Betty's Burgers [ Charlotte -> Billy ]
+( 3$ ) Rent Received for property Betty's Burgers [ Charlotte -> Billy ]
+Player 1's Turn ( 13 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( The Burvale ) Peter's Balance ( 18 )
+Player 2's Turn ( 14 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( The Burvale ) Billy's Balance ( 17 )
+Player 3's Turn ( 15 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Betty's Burgers ) Charlotte's Balance ( 8 )
+Player 4's Turn ( 16 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( GO ) Sweedal's Balance ( 11 )
+-------------------------------------------------------------------------------------------
+Peter Bought Gami Chicken For Price ( 4$ )
+( 1$ ) Rent Paid for property Fast Kebabs [ Billy -> Peter ]
+( 1$ ) Rent Received for property Fast Kebabs [ Billy -> Peter ]
+( 1$ ) Rent Paid for property Fast Kebabs [ Sweedal -> Peter ]
+( 1$ ) Rent Received for property Fast Kebabs [ Sweedal -> Peter ]
+Player 1's Turn ( 17 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Gami Chicken ) Peter's Balance ( 16 )
+Player 2's Turn ( 18 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( Fast Kebabs ) Billy's Balance ( 16 )
+Player 3's Turn ( 19 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( GO ) Charlotte's Balance ( 9 )
+Player 4's Turn ( 20 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Fast Kebabs ) Sweedal's Balance ( 10 )
+-------------------------------------------------------------------------------------------
+Peter Bought Lanzhou Beef Noodle For Price ( 2$ )
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Billy -> Peter ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Billy -> Peter ]
+( 1$ ) Rent Paid for property The Burvale [ Charlotte -> Peter ]
+( 1$ ) Rent Received for property The Burvale [ Charlotte -> Peter ]
+( 4$ ) Rent Paid for property Gami Chicken [ Sweedal -> Peter ]
+( 4$ ) Rent Received for property Gami Chicken [ Sweedal -> Peter ]
+Player 1's Turn ( 21 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Lanzhou Beef Noodle ) Peter's Balance ( 21 )
+Player 2's Turn ( 22 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Lanzhou Beef Noodle ) Billy's Balance ( 14 )
+Player 3's Turn ( 23 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( The Burvale ) Charlotte's Balance ( 8 )
+Player 4's Turn ( 24 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( Gami Chicken ) Sweedal's Balance ( 6 )
+-------------------------------------------------------------------------------------------
+( 4$ ) Rent Paid for property Massizim [ Peter -> Peter ]
+( 4$ ) Rent Received for property Massizim [ Peter -> Peter ]
+( 4$ ) Rent Paid for property Gami Chicken [ Charlotte -> Peter ]
+( 4$ ) Rent Received for property Gami Chicken [ Charlotte -> Peter ]
+( 2$ ) Rent Paid for property The Grand Tofu [ Sweedal -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Sweedal -> Billy ]
+Player 1's Turn ( 25 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Massizim ) Peter's Balance ( 25 )
+Player 2's Turn ( 26 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( GO ) Billy's Balance ( 17 )
+Player 3's Turn ( 27 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Gami Chicken ) Charlotte's Balance ( 4 )
+Player 4's Turn ( 28 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( The Grand Tofu ) Sweedal's Balance ( 4 )
+-------------------------------------------------------------------------------------------
+( 3$ ) Rent Paid for property Betty's Burgers [ Peter -> Billy ]
+( 3$ ) Rent Received for property Betty's Burgers [ Peter -> Billy ]
+( 2$ ) Rent Paid for property The Grand Tofu [ Billy -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Billy -> Billy ]
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Charlotte -> Peter ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Charlotte -> Peter ]
+( 4$ ) Rent Paid for property Gami Chicken [ Sweedal -> Peter ]
+( 4$ ) Rent Received for property Gami Chicken [ Sweedal -> Peter ]
+Player 1's Turn ( 29 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Betty's Burgers ) Peter's Balance ( 28 )
+Player 2's Turn ( 30 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( The Grand Tofu ) Billy's Balance ( 20 )
+Player 3's Turn ( 31 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Lanzhou Beef Noodle ) Charlotte's Balance ( 2 )
+Player 4's Turn ( 32 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Gami Chicken ) Sweedal's Balance ( 0 )
+###########################################################################################
+********************************************************************************************
+
+							Game Over
+						----------------
+
+			* * *  1. Peter's Balance ( 28 )
+			* * *  2. Billy's Balance ( 20 )
+			* * *  3. Charlotte's Balance ( 2 )
+			* * *  4. Sweedal's Balance ( 0 )
+
+			* * * Owned Properties By Peter Are ( The Burvale,Fast Kebabs,Massizim,Gami Chicken,Lanzhou Beef Noodle ) * * *
+			* * * Owned Properties By Billy Are ( The Grand Tofu,Betty's Burgers ) * * *
+			* * * Owned Properties By Charlotte Are (  ) * * *
+			* * * Owned Properties By Sweedal Are (  ) * * *
+
+***************************** Sweedal is bankrupt *****************************
+ | *** Peter *** | With Balance ( 28 ) Is Game Winner
+
+********************************************************************************************
+###########################################################################################
+Your options are as below
+Simulate Game (Press 1 for simulate game of rolls1)
+Simulate Game (Press 2 for simulate game of rolls2)
+Exit from Game (Press 3 for exit game)
+
+2
 ********************************************************************************************
 You've Started simulating the monopoly game
 Four player are loaded [ Billy,Charlotte,Peter,Sweedal ]
@@ -33,164 +176,129 @@ Name :- Gami Chicken	|	Type :- property	|	Price :- 4$	|	 Color :- Blue	|
 Name :- Massizim	|	Type :- property	|	Price :- 4$	|	 Color :- Blue	|
 ********************************************************************************************
 -------------------------------------------------------------------------------------------
-Peter Bought YOMG For Price ( 3$ )
-Billy Bought Betty's Burgers For Price ( 3$ )
-Charlotte Bought The Grand Tofu For Price ( 2$ )
-Sweedal Bought Fast Kebabs For Price ( 1$ )
-Player 1's Turn ( 1 ) Dice 1 ( 1 ) Dice 2 ( 5 ) Total ( 7 ) Current Position ( YOMG ) Peter's Balance ( 13 )
-Player 2's Turn ( 2 ) Dice 1 ( 3 ) Dice 2 ( 2 ) Total ( 6 ) Current Position ( Betty's Burgers ) Billy's Balance ( 13 )
-Player 3's Turn ( 3 ) Dice 1 ( 1 ) Dice 2 ( 2 ) Total ( 4 ) Current Position ( The Grand Tofu ) Charlotte's Balance ( 14 )
-Player 4's Turn ( 4 ) Dice 1 ( 1 ) Dice 2 ( 1 ) Total ( 3 ) Current Position ( Fast Kebabs ) Sweedal's Balance ( 15 )
--------------------------------------------------------------------------------------------
-( 1$ ) Rent Paid for property Fast Kebabs [ Peter -> Sweedal ]
-( 1$ ) Rent Received for property Fast Kebabs [ Peter -> Sweedal ]
-Billy Bought Massizim For Price ( 4$ )
-( 3$ ) Rent Paid for property Betty's Burgers [ Sweedal -> Billy ]
-( 3$ ) Rent Received for property Betty's Burgers [ Sweedal -> Billy ]
-Player 1's Turn ( 5 ) Dice 1 ( 1 ) Dice 2 ( 4 ) Total ( 5 ) Current Position ( Fast Kebabs ) Peter's Balance ( 12 )
-Player 2's Turn ( 6 ) Dice 1 ( 2 ) Dice 2 ( 1 ) Total ( 3 ) Current Position ( Massizim ) Billy's Balance ( 12 )
-Player 3's Turn ( 7 ) Dice 1 ( 4 ) Dice 2 ( 2 ) Total ( 6 ) Current Position ( GO ) Charlotte's Balance ( 15 )
-Player 4's Turn ( 8 ) Dice 1 ( 2 ) Dice 2 ( 1 ) Total ( 3 ) Current Position ( Betty's Burgers ) Sweedal's Balance ( 13 )
--------------------------------------------------------------------------------------------
-( 1$ ) Rent Paid for property Fast Kebabs [ Peter -> Sweedal ]
-( 1$ ) Rent Received for property Fast Kebabs [ Peter -> Sweedal ]
-( 2$ ) Rent Paid for property The Grand Tofu [ Billy -> Charlotte ]
-( 2$ ) Rent Received for property The Grand Tofu [ Billy -> Charlotte ]
+Peter Bought Betty's Burgers For Price ( 3$ )
+Billy Bought Fast Kebabs For Price ( 1$ )
+( 1$ ) Rent Paid for property Fast Kebabs [ Charlotte -> Billy ]
+( 1$ ) Rent Received for property Fast Kebabs [ Charlotte -> Billy ]
 Sweedal Bought The Burvale For Price ( 1$ )
-Player 1's Turn ( 9 ) Dice 1 ( 6 ) Dice 2 ( 3 ) Total ( 9 ) Current Position ( Fast Kebabs ) Peter's Balance ( 11 )
-Player 2's Turn ( 10 ) Dice 1 ( 3 ) Dice 2 ( 1 ) Total ( 4 ) Current Position ( The Grand Tofu ) Billy's Balance ( 10 )
-Player 3's Turn ( 11 ) Dice 1 ( 5 ) Dice 2 ( 4 ) Total ( 9 ) Current Position ( GO ) Charlotte's Balance ( 18 )
-Player 4's Turn ( 12 ) Dice 1 ( 2 ) Dice 2 ( 3 ) Total ( 5 ) Current Position ( The Burvale ) Sweedal's Balance ( 13 )
+Player 1's Turn ( 1 ) Dice 1 ( 5 )  Total ( 6 ) Current Position ( Betty's Burgers ) Peter's Balance ( 13 )
+Player 2's Turn ( 2 ) Dice 1 ( 2 )  Total ( 3 ) Current Position ( Fast Kebabs ) Billy's Balance ( 16 )
+Player 3's Turn ( 3 ) Dice 1 ( 2 )  Total ( 3 ) Current Position ( Fast Kebabs ) Charlotte's Balance ( 15 )
+Player 4's Turn ( 4 ) Dice 1 ( 1 )  Total ( 2 ) Current Position ( The Burvale ) Sweedal's Balance ( 15 )
 -------------------------------------------------------------------------------------------
+Billy Bought The Grand Tofu For Price ( 2$ )
+Charlotte Bought Lanzhou Beef Noodle For Price ( 2$ )
+( 1$ ) Rent Paid for property Fast Kebabs [ Sweedal -> Billy ]
+( 1$ ) Rent Received for property Fast Kebabs [ Sweedal -> Billy ]
+Player 1's Turn ( 5 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( GO ) Peter's Balance ( 14 )
+Player 2's Turn ( 6 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( The Grand Tofu ) Billy's Balance ( 15 )
+Player 3's Turn ( 7 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Lanzhou Beef Noodle ) Charlotte's Balance ( 13 )
+Player 4's Turn ( 8 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( Fast Kebabs ) Sweedal's Balance ( 14 )
+-------------------------------------------------------------------------------------------
+( 2$ ) Rent Paid for property The Grand Tofu [ Peter -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Peter -> Billy ]
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Billy -> Charlotte ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Billy -> Charlotte ]
+Charlotte Bought Massizim For Price ( 4$ )
+( 3$ ) Rent Paid for property Betty's Burgers [ Sweedal -> Peter ]
+( 3$ ) Rent Received for property Betty's Burgers [ Sweedal -> Peter ]
+Player 1's Turn ( 9 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( The Grand Tofu ) Peter's Balance ( 15 )
+Player 2's Turn ( 10 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( Lanzhou Beef Noodle ) Billy's Balance ( 15 )
+Player 3's Turn ( 11 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Massizim ) Charlotte's Balance ( 11 )
+Player 4's Turn ( 12 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( Betty's Burgers ) Sweedal's Balance ( 11 )
+-------------------------------------------------------------------------------------------
+( 4$ ) Rent Paid for property Massizim [ Peter -> Charlotte ]
+( 4$ ) Rent Received for property Massizim [ Peter -> Charlotte ]
+Billy Bought YOMG For Price ( 3$ )
+( 1$ ) Rent Paid for property Fast Kebabs [ Charlotte -> Billy ]
+( 1$ ) Rent Received for property Fast Kebabs [ Charlotte -> Billy ]
+( 3$ ) Rent Paid for property YOMG [ Sweedal -> Billy ]
+( 3$ ) Rent Received for property YOMG [ Sweedal -> Billy ]
+Player 1's Turn ( 13 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( Massizim ) Peter's Balance ( 11 )
+Player 2's Turn ( 14 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( YOMG ) Billy's Balance ( 16 )
+Player 3's Turn ( 15 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( Fast Kebabs ) Charlotte's Balance ( 14 )
+Player 4's Turn ( 16 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( YOMG ) Sweedal's Balance ( 8 )
+-------------------------------------------------------------------------------------------
+( 1$ ) Rent Paid for property Fast Kebabs [ Peter -> Billy ]
+( 1$ ) Rent Received for property Fast Kebabs [ Peter -> Billy ]
 Billy Bought Gami Chicken For Price ( 4$ )
-( 4$ ) Rent Paid for property Gami Chicken [ Charlotte -> Billy ]
-( 4$ ) Rent Received for property Gami Chicken [ Charlotte -> Billy ]
-( 3$ ) Rent Paid for property YOMG [ Sweedal -> Peter ]
-( 3$ ) Rent Received for property YOMG [ Sweedal -> Peter ]
-Player 1's Turn ( 13 ) Dice 1 ( 2 ) Dice 2 ( 5 ) Total ( 7 ) Current Position ( GO ) Peter's Balance ( 15 )
-Player 2's Turn ( 14 ) Dice 1 ( 2 ) Dice 2 ( 2 ) Total ( 4 ) Current Position ( Gami Chicken ) Billy's Balance ( 10 )
-Player 3's Turn ( 15 ) Dice 1 ( 4 ) Dice 2 ( 3 ) Total ( 7 ) Current Position ( Gami Chicken ) Charlotte's Balance ( 14 )
-Player 4's Turn ( 16 ) Dice 1 ( 4 ) Dice 2 ( 1 ) Total ( 5 ) Current Position ( YOMG ) Sweedal's Balance ( 10 )
+( 2$ ) Rent Paid for property The Grand Tofu [ Charlotte -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Charlotte -> Billy ]
+Player 1's Turn ( 17 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( Fast Kebabs ) Peter's Balance ( 10 )
+Player 2's Turn ( 18 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( Gami Chicken ) Billy's Balance ( 15 )
+Player 3's Turn ( 19 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( The Grand Tofu ) Charlotte's Balance ( 12 )
+Player 4's Turn ( 20 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( GO ) Sweedal's Balance ( 9 )
 -------------------------------------------------------------------------------------------
-( 2$ ) Rent Paid for property The Grand Tofu [ Charlotte -> Charlotte ]
-( 2$ ) Rent Received for property The Grand Tofu [ Charlotte -> Charlotte ]
-( 1$ ) Rent Paid for property Fast Kebabs [ Sweedal -> Sweedal ]
-( 1$ ) Rent Received for property Fast Kebabs [ Sweedal -> Sweedal ]
-Player 1's Turn ( 17 ) Dice 1 ( 6 ) Dice 2 ( 3 ) Total ( 9 ) Current Position ( GO ) Peter's Balance ( 16 )
-Player 2's Turn ( 18 ) Dice 1 ( 1 ) Dice 2 ( 1 ) Total ( 2 ) Current Position ( GO ) Billy's Balance ( 11 )
-Player 3's Turn ( 19 ) Dice 1 ( 4 ) Dice 2 ( 1 ) Total ( 5 ) Current Position ( The Grand Tofu ) Charlotte's Balance ( 14 )
-Player 4's Turn ( 20 ) Dice 1 ( 2 ) Dice 2 ( 3 ) Total ( 5 ) Current Position ( Fast Kebabs ) Sweedal's Balance ( 10 )
+( 3$ ) Rent Paid for property YOMG [ Peter -> Billy ]
+( 3$ ) Rent Received for property YOMG [ Peter -> Billy ]
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Charlotte -> Charlotte ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Charlotte -> Charlotte ]
+( 2$ ) Rent Paid for property The Grand Tofu [ Sweedal -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Sweedal -> Billy ]
+Player 1's Turn ( 21 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( YOMG ) Peter's Balance ( 7 )
+Player 2's Turn ( 22 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( GO ) Billy's Balance ( 21 )
+Player 3's Turn ( 23 ) Dice 1 ( 1 )  Total ( 1 ) Current Position ( Lanzhou Beef Noodle ) Charlotte's Balance ( 12 )
+Player 4's Turn ( 24 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( The Grand Tofu ) Sweedal's Balance ( 7 )
 -------------------------------------------------------------------------------------------
-( 1$ ) Rent Paid for property The Burvale [ Peter -> Sweedal ]
-( 1$ ) Rent Received for property The Burvale [ Peter -> Sweedal ]
-Billy Bought Lanzhou Beef Noodle For Price ( 2$ )
-( 3$ ) Rent Paid for property Betty's Burgers [ Charlotte -> Billy ]
-( 3$ ) Rent Received for property Betty's Burgers [ Charlotte -> Billy ]
-( 1$ ) Rent Paid for property The Burvale [ Sweedal -> Sweedal ]
-( 1$ ) Rent Received for property The Burvale [ Sweedal -> Sweedal ]
-Player 1's Turn ( 21 ) Dice 1 ( 6 ) Dice 2 ( 4 ) Total ( 10 ) Current Position ( The Burvale ) Peter's Balance ( 15 )
-Player 2's Turn ( 22 ) Dice 1 ( 2 ) Dice 2 ( 2 ) Total ( 4 ) Current Position ( Lanzhou Beef Noodle ) Billy's Balance ( 12 )
-Player 3's Turn ( 23 ) Dice 1 ( 1 ) Dice 2 ( 1 ) Total ( 2 ) Current Position ( Betty's Burgers ) Charlotte's Balance ( 11 )
-Player 4's Turn ( 24 ) Dice 1 ( 5 ) Dice 2 ( 3 ) Total ( 8 ) Current Position ( The Burvale ) Sweedal's Balance ( 11 )
+( 4$ ) Rent Paid for property Massizim [ Peter -> Charlotte ]
+( 4$ ) Rent Received for property Massizim [ Peter -> Charlotte ]
+( 2$ ) Rent Paid for property The Grand Tofu [ Billy -> Billy ]
+( 2$ ) Rent Received for property The Grand Tofu [ Billy -> Billy ]
+( 4$ ) Rent Paid for property Massizim [ Sweedal -> Charlotte ]
+( 4$ ) Rent Received for property Massizim [ Sweedal -> Charlotte ]
+Player 1's Turn ( 25 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Massizim ) Peter's Balance ( 3 )
+Player 2's Turn ( 26 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( The Grand Tofu ) Billy's Balance ( 21 )
+Player 3's Turn ( 27 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( GO ) Charlotte's Balance ( 21 )
+Player 4's Turn ( 28 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( Massizim ) Sweedal's Balance ( 3 )
 -------------------------------------------------------------------------------------------
-( 4$ ) Rent Paid for property Gami Chicken [ Peter -> Billy ]
-( 4$ ) Rent Received for property Gami Chicken [ Peter -> Billy ]
-( 2$ ) Rent Paid for property The Grand Tofu [ Billy -> Charlotte ]
-( 2$ ) Rent Received for property The Grand Tofu [ Billy -> Charlotte ]
-( 4$ ) Rent Paid for property Gami Chicken [ Charlotte -> Billy ]
-( 4$ ) Rent Received for property Gami Chicken [ Charlotte -> Billy ]
-( 1$ ) Rent Paid for property Fast Kebabs [ Sweedal -> Sweedal ]
-( 1$ ) Rent Received for property Fast Kebabs [ Sweedal -> Sweedal ]
-Player 1's Turn ( 25 ) Dice 1 ( 4 ) Dice 2 ( 2 ) Total ( 6 ) Current Position ( Gami Chicken ) Peter's Balance ( 11 )
-Player 2's Turn ( 26 ) Dice 1 ( 5 ) Dice 2 ( 3 ) Total ( 8 ) Current Position ( The Grand Tofu ) Billy's Balance ( 18 )
-Player 3's Turn ( 27 ) Dice 1 ( 6 ) Dice 2 ( 5 ) Total ( 11 ) Current Position ( Gami Chicken ) Charlotte's Balance ( 9 )
-Player 4's Turn ( 28 ) Dice 1 ( 5 ) Dice 2 ( 5 ) Total ( 10 ) Current Position ( Fast Kebabs ) Sweedal's Balance ( 11 )
+( 1$ ) Rent Paid for property Fast Kebabs [ Peter -> Billy ]
+( 1$ ) Rent Received for property Fast Kebabs [ Peter -> Billy ]
+( 3$ ) Rent Paid for property Betty's Burgers [ Billy -> Peter ]
+( 3$ ) Rent Received for property Betty's Burgers [ Billy -> Peter ]
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Charlotte -> Charlotte ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Charlotte -> Charlotte ]
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Sweedal -> Charlotte ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Sweedal -> Charlotte ]
+Player 1's Turn ( 29 ) Dice 1 ( 3 )  Total ( 3 ) Current Position ( Fast Kebabs ) Peter's Balance ( 5 )
+Player 2's Turn ( 30 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Betty's Burgers ) Billy's Balance ( 19 )
+Player 3's Turn ( 31 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Lanzhou Beef Noodle ) Charlotte's Balance ( 23 )
+Player 4's Turn ( 32 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( Lanzhou Beef Noodle ) Sweedal's Balance ( 1 )
 -------------------------------------------------------------------------------------------
-( 4$ ) Rent Paid for property Gami Chicken [ Peter -> Billy ]
-( 4$ ) Rent Received for property Gami Chicken [ Peter -> Billy ]
-( 4$ ) Rent Paid for property Massizim [ Billy -> Billy ]
-( 4$ ) Rent Received for property Massizim [ Billy -> Billy ]
-( 4$ ) Rent Paid for property Massizim [ Charlotte -> Billy ]
-( 4$ ) Rent Received for property Massizim [ Charlotte -> Billy ]
-( 1$ ) Rent Paid for property Fast Kebabs [ Sweedal -> Sweedal ]
-( 1$ ) Rent Received for property Fast Kebabs [ Sweedal -> Sweedal ]
-Player 1's Turn ( 29 ) Dice 1 ( 6 ) Dice 2 ( 3 ) Total ( 9 ) Current Position ( Gami Chicken ) Peter's Balance ( 7 )
-Player 2's Turn ( 30 ) Dice 1 ( 3 ) Dice 2 ( 2 ) Total ( 5 ) Current Position ( Massizim ) Billy's Balance ( 26 )
-Player 3's Turn ( 31 ) Dice 1 ( 6 ) Dice 2 ( 4 ) Total ( 10 ) Current Position ( Massizim ) Charlotte's Balance ( 5 )
-Player 4's Turn ( 32 ) Dice 1 ( 4 ) Dice 2 ( 5 ) Total ( 9 ) Current Position ( Fast Kebabs ) Sweedal's Balance ( 11 )
--------------------------------------------------------------------------------------------
-( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Peter -> Billy ]
-( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Peter -> Billy ]
-( 4$ ) Rent Paid for property Massizim [ Billy -> Billy ]
-( 4$ ) Rent Received for property Massizim [ Billy -> Billy ]
-( 2$ ) Rent Paid for property The Grand Tofu [ Sweedal -> Charlotte ]
-( 2$ ) Rent Received for property The Grand Tofu [ Sweedal -> Charlotte ]
-Player 1's Turn ( 33 ) Dice 1 ( 4 ) Dice 2 ( 2 ) Total ( 6 ) Current Position ( Lanzhou Beef Noodle ) Peter's Balance ( 5 )
-Player 2's Turn ( 34 ) Dice 1 ( 3 ) Dice 2 ( 6 ) Total ( 9 ) Current Position ( Massizim ) Billy's Balance ( 28 )
-Player 3's Turn ( 35 ) Dice 1 ( 5 ) Dice 2 ( 5 ) Total ( 10 ) Current Position ( GO ) Charlotte's Balance ( 9 )
-Player 4's Turn ( 36 ) Dice 1 ( 6 ) Dice 2 ( 4 ) Total ( 10 ) Current Position ( The Grand Tofu ) Sweedal's Balance ( 9 )
--------------------------------------------------------------------------------------------
-( 3$ ) Rent Paid for property YOMG [ Billy -> Peter ]
-( 3$ ) Rent Received for property YOMG [ Billy -> Peter ]
-( 4$ ) Rent Paid for property Massizim [ Charlotte -> Billy ]
-( 4$ ) Rent Received for property Massizim [ Charlotte -> Billy ]
-( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Sweedal -> Billy ]
-( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Sweedal -> Billy ]
-Player 1's Turn ( 37 ) Dice 1 ( 2 ) Dice 2 ( 3 ) Total ( 5 ) Current Position ( GO ) Peter's Balance ( 9 )
-Player 2's Turn ( 38 ) Dice 1 ( 1 ) Dice 2 ( 6 ) Total ( 7 ) Current Position ( YOMG ) Billy's Balance ( 31 )
-Player 3's Turn ( 39 ) Dice 1 ( 6 ) Dice 2 ( 2 ) Total ( 8 ) Current Position ( Massizim ) Charlotte's Balance ( 5 )
-Player 4's Turn ( 40 ) Dice 1 ( 5 ) Dice 2 ( 5 ) Total ( 10 ) Current Position ( Lanzhou Beef Noodle ) Sweedal's Balance ( 7 )
--------------------------------------------------------------------------------------------
-( 3$ ) Rent Paid for property YOMG [ Peter -> Peter ]
-( 3$ ) Rent Received for property YOMG [ Peter -> Peter ]
-( 1$ ) Rent Paid for property The Burvale [ Billy -> Sweedal ]
-( 1$ ) Rent Received for property The Burvale [ Billy -> Sweedal ]
-( 4$ ) Rent Paid for property Gami Chicken [ Charlotte -> Billy ]
-( 4$ ) Rent Received for property Gami Chicken [ Charlotte -> Billy ]
-( 3$ ) Rent Paid for property Betty's Burgers [ Sweedal -> Billy ]
-( 3$ ) Rent Received for property Betty's Burgers [ Sweedal -> Billy ]
-Player 1's Turn ( 41 ) Dice 1 ( 1 ) Dice 2 ( 5 ) Total ( 6 ) Current Position ( YOMG ) Peter's Balance ( 9 )
-Player 2's Turn ( 42 ) Dice 1 ( 1 ) Dice 2 ( 3 ) Total ( 4 ) Current Position ( The Burvale ) Billy's Balance ( 37 )
-Player 3's Turn ( 43 ) Dice 1 ( 6 ) Dice 2 ( 2 ) Total ( 8 ) Current Position ( Gami Chicken ) Charlotte's Balance ( 1 )
-Player 4's Turn ( 44 ) Dice 1 ( 4 ) Dice 2 ( 6 ) Total ( 10 ) Current Position ( Betty's Burgers ) Sweedal's Balance ( 5 )
--------------------------------------------------------------------------------------------
-( 4$ ) Rent Paid for property Gami Chicken [ Peter -> Billy ]
-( 4$ ) Rent Received for property Gami Chicken [ Peter -> Billy ]
-( 3$ ) Rent Paid for property Betty's Burgers [ Billy -> Billy ]
-( 3$ ) Rent Received for property Betty's Burgers [ Billy -> Billy ]
-( 3$ ) Rent Paid for property YOMG [ Charlotte -> Peter ]
-( 3$ ) Rent Received for property YOMG [ Charlotte -> Peter ]
-( 1$ ) Rent Paid for property The Burvale [ Sweedal -> Sweedal ]
-( 1$ ) Rent Received for property The Burvale [ Sweedal -> Sweedal ]
-Player 1's Turn ( 45 ) Dice 1 ( 5 ) Dice 2 ( 5 ) Total ( 10 ) Current Position ( Gami Chicken ) Peter's Balance ( 8 )
-Player 2's Turn ( 46 ) Dice 1 ( 2 ) Dice 2 ( 2 ) Total ( 4 ) Current Position ( Betty's Burgers ) Billy's Balance ( 41 )
-Player 3's Turn ( 47 ) Dice 1 ( 2 ) Dice 2 ( 6 ) Total ( 8 ) Current Position ( YOMG ) Charlotte's Balance ( -2 )
-Player 4's Turn ( 48 ) Dice 1 ( 3 ) Dice 2 ( 2 ) Total ( 5 ) Current Position ( The Burvale ) Sweedal's Balance ( 5 )
+( 2$ ) Rent Paid for property Lanzhou Beef Noodle [ Peter -> Charlotte ]
+( 2$ ) Rent Received for property Lanzhou Beef Noodle [ Peter -> Charlotte ]
+( 1$ ) Rent Paid for property Fast Kebabs [ Billy -> Billy ]
+( 1$ ) Rent Received for property Fast Kebabs [ Billy -> Billy ]
+( 4$ ) Rent Paid for property Massizim [ Sweedal -> Charlotte ]
+( 4$ ) Rent Received for property Massizim [ Sweedal -> Charlotte ]
+Player 1's Turn ( 33 ) Dice 1 ( 2 )  Total ( 2 ) Current Position ( Lanzhou Beef Noodle ) Peter's Balance ( 3 )
+Player 2's Turn ( 34 ) Dice 1 ( 6 )  Total ( 6 ) Current Position ( Fast Kebabs ) Billy's Balance ( 19 )
+Player 3's Turn ( 35 ) Dice 1 ( 5 )  Total ( 5 ) Current Position ( GO ) Charlotte's Balance ( 30 )
+Player 4's Turn ( 36 ) Dice 1 ( 4 )  Total ( 4 ) Current Position ( Massizim ) Sweedal's Balance ( -3 )
 ###########################################################################################
 ********************************************************************************************
 
-						Game Over
-						--------------
+							Game Over
+						----------------
 
-			* * *  1. Peter's Balance ( 8 )	 	 * * *
-			* * *  2. Billy's Balance ( 41 ) 	 * * *
-			* * *  3. Charlotte's Balance ( -2 ) * * *
-			* * *  4. Sweedal's Balance ( 5 )	 * * *
+			* * *  1. Peter's Balance ( 3 )
+			* * *  2. Billy's Balance ( 19 )
+			* * *  3. Charlotte's Balance ( 30 )
+			* * *  4. Sweedal's Balance ( -3 )
 
-			* * * Owned Properties By Peter Are ( YOMG ) * * *
-			* * * Owned Properties By Billy Are ( Betty's Burgers,Massizim,Gami Chicken,Lanzhou Beef Noodle ) * * *
-			* * * Owned Properties By Charlotte Are ( The Grand Tofu ) * * *
-			* * * Owned Properties By Sweedal Are ( Fast Kebabs,The Burvale ) * * *
+			* * * Owned Properties By Peter Are ( Betty's Burgers ) * * *
+			* * * Owned Properties By Billy Are ( Fast Kebabs,The Grand Tofu,YOMG,Gami Chicken ) * * *
+			* * * Owned Properties By Charlotte Are ( Lanzhou Beef Noodle,Massizim ) * * *
+			* * * Owned Properties By Sweedal Are ( The Burvale ) * * *
 
-***************************** Charlotte is bankrupt *****************************
- | *** Billy *** | With Balance ( 41 ) Is Game Winner
+***************************** Sweedal is bankrupt *****************************
+ | *** Charlotte *** | With Balance ( 30 ) Is Game Winner
 
 ********************************************************************************************
 ###########################################################################################
--------------------------------------------------------------------------------------------
 Your options are as below
-Simulate Game (Press 1 for simulate game)
-Exit from Game (Press 2 for exit game)
-2
+Simulate Game (Press 1 for simulate game of rolls1)
+Simulate Game (Press 2 for simulate game of rolls2)
+Exit from Game (Press 3 for exit game)
+3
 
 Process finished with exit code 0
