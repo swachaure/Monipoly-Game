@@ -3,8 +3,8 @@ J
 java:S3740"/Provide the parametrized type for this generic.(‚åÏûÿÿÿÿ
 E
 java:S3740!"/Provide the parametrized type for this generic.(¤İÅ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(™¶Ÿøÿÿÿÿ
-S	java:S106#"9Replace this use of System.out or System.err by a logger.(û·ô‰ÿÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(ÂüÃ…8àş”Ê£0
+]	java:S125#"<This block of commented-out lines of code should be removed.(óÄ·¿şÿÿÿÿ8åş”Ê£0
 `	java:S100&"KRename this method name to match the regular expression '^[a-z][a-zA-Z]*$'.(ş•²Á
 `	java:S100*"KRename this method name to match the regular expression '^[a-z][a-zA-Z]*$'.(üÔúÄ
 e	java:S100."KRename this method name to match the regular expression '^[a-z][a-zA-Z]*$'.(‹ÒÄúÿÿÿÿ

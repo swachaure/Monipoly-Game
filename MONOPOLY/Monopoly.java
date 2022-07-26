@@ -27,8 +27,9 @@ public class Monopoly {
 				System.out.println();
 			}
 			System.out.println("Your options are as below");
-			System.out.println("Simulate Game (Press 1 for simulate game)");
-			System.out.println("Exit from Game (Press 2 for exit game)");
+			System.out.println("Simulate Game (Press 1 for simulate game of rolls1)");
+			System.out.println("Simulate Game (Press 2 for simulate game of rolls2)");
+			System.out.println("Exit from Game (Press 3 for exit game)");
 			Scanner sc = new Scanner(System.in);
 			String option = sc.next();
 			switch (option) {
@@ -47,10 +48,29 @@ public class Monopoly {
 					Utility.printStar();
 
 					welcomePrint = false;
-					start();
+					start(true);
 				}
 				break;
 				case "2": {
+					board = new Board();
+					rolls = new Rolls();
+
+					init();
+					Utility.printStar();
+					System.out.println("You've Started simulating the monopoly game");
+					System.out.printf("Four player are loaded ");
+					board.printAllPlayersName();
+					System.out.println();
+					System.out.println("Board loaded with spaces like as below");
+					board.printAllProperties();
+					Utility.printStar();
+
+					welcomePrint = false;
+					start(false);
+				}
+				break;
+
+				case "3": {
 					welcomePrint = false;
 					stopFlag = true;
 					System.exit(0);
@@ -88,31 +108,27 @@ public class Monopoly {
 
 	}
 
-	private static void start() {
+	private static void start(boolean isRolls1) {
 		boolean init = true;
 		Utility.printDash();
-		for (int i = 1; i <= 48; i = i + 4) {
-			int player1 = i;
-			int player2 = player1 + 1;
+		int totalRolls = isRolls1 ? rolls.getAllRollsOfDice1().size() : rolls.getAllRollsOfDice2().size();
+		for (int i = 1; i <= (totalRolls - totalRolls % board.getPlayers().size()); i = i + 4) {
+			int player2 = i + 1;
 			int player3 = player2 + 1;
 			int player4 = player3 + 1;
 
-			int player1Dice1 = rolls.getAllRollsOfDice1().get(player1);
-			int player1Dice2 = rolls.getAllRollsOfDice2().get(player1);
+			int player1Dice1 = isRolls1 ? rolls.getAllRollsOfDice1().get(i) : rolls.getAllRollsOfDice2().get(i);
 
-			int player2Dice1 = rolls.getAllRollsOfDice1().get(player2);
-			int player2Dice2 = rolls.getAllRollsOfDice2().get(player2);
+			int player2Dice1 = isRolls1 ? rolls.getAllRollsOfDice1().get(player2) : rolls.getAllRollsOfDice2().get(player2);
 
-			int player3Dice1 = rolls.getAllRollsOfDice1().get(player3);
-			int player3Dice2 = rolls.getAllRollsOfDice2().get(player3);
+			int player3Dice1 = isRolls1 ? rolls.getAllRollsOfDice1().get(player3) : rolls.getAllRollsOfDice2().get(player3);
 
-			int player4Dice1 = rolls.getAllRollsOfDice1().get(player4);
-			int player4Dice2 = rolls.getAllRollsOfDice2().get(player4);
+			int player4Dice1 = isRolls1 ? rolls.getAllRollsOfDice1().get(player4) : rolls.getAllRollsOfDice2().get(player4);
 
-			int player1Total = (init) ? player1Dice1 + player1Dice2 + 1 : player1Dice1 + player1Dice2;
-			int player2Total = (init) ? (player2Dice1 + player2Dice2) + 1 : (player2Dice1 + player2Dice2);
-			int player3Total = (init) ? (player3Dice1 + player3Dice2) + 1 : (player3Dice1 + player3Dice2);
-			int player4Total = (init) ? (player4Dice1 + player4Dice2) + 1 : (player4Dice1 + player4Dice2);
+			int player1Total = (init) ? player1Dice1 + 1 : player1Dice1;
+			int player3Total = (init) ? player3Dice1 + 1 : player3Dice1;
+			int player2Total = (init) ? player2Dice1 + 1 : player2Dice1;
+			int player4Total = (init) ? player4Dice1 + 1 : player4Dice1;
 			init = false;
 
 			board.setCurrentPosOfPlayer1(player1Total);
@@ -130,19 +146,23 @@ public class Monopoly {
 			balanceOfPlayer3 = board.getBalance("Charlotte");
 			balanceOfPlayer4 = board.getBalance("Sweedal");
 
-			System.out.println("Player 1's Turn ( " + player1 + " ) Dice 1 ( " + player1Dice1 + " ) " + "Dice 2 ( " + player1Dice2 + " )" + " Total ( " +
-					player1Total + " )" + " Current Position ( " + currentPositionOfPlayer1 + " )" + " Peter's Balance ( " + balanceOfPlayer1 + " )");
-			System.out.println("Player 2's Turn ( " + player2 + " ) Dice 1 ( " + player2Dice1 + " ) " + "Dice 2 ( " + player2Dice2 + " )" + " Total ( " +
-					player2Total + " )" + " Current Position ( " + currentPositionOfPlayer2 + " )" + " Billy's Balance ( " + balanceOfPlayer2 + " )");
-			System.out.println("Player 3's Turn ( " + player3 + " ) Dice 1 ( " + player3Dice1 + " ) " + "Dice 2 ( " + player3Dice2 + " )" + " Total ( " +
-					player3Total + " )" + " Current Position ( " + currentPositionOfPlayer3 + " )" + " Charlotte's Balance ( " + balanceOfPlayer3 +
-					" )");
-			System.out.println("Player 4's Turn ( " + player4 + " ) Dice 1 ( " + player4Dice1 + " ) " + "Dice 2 ( " + player4Dice2 + " )" + " Total ( " +
-					player4Total + " )" + " Current Position ( " + currentPositionOfPlayer4 + " )" + " Sweedal's Balance ( " + balanceOfPlayer4 + " )");
+			System.out.println(
+					"Player 1's Turn ( " + i + " ) Dice 1 ( " + player1Dice1 + " ) " + " Total ( " + player1Total + " )" + " Current Position ( " +
+							currentPositionOfPlayer1 + " )" + " Peter's Balance ( " + balanceOfPlayer1 + " )");
+			System.out.println(
+					"Player 2's Turn ( " + player2 + " ) Dice 1 ( " + player2Dice1 + " ) " + " Total ( " + player2Total + " )" + " Current Position ( " +
+							currentPositionOfPlayer2 + " )" + " Billy's Balance ( " + balanceOfPlayer2 + " )");
+			System.out.println(
+					"Player 3's Turn ( " + player3 + " ) Dice 1 ( " + player3Dice1 + " ) " + " Total ( " + player3Total + " )" + " Current Position ( " +
+							currentPositionOfPlayer3 + " )" + " Charlotte's Balance ( " + balanceOfPlayer3 + " )");
+			System.out.println(
+					"Player 4's Turn ( " + player4 + " ) Dice 1 ( " + player4Dice1 + " ) " + " Total ( " + player4Total + " )" + " Current Position ( " +
+							currentPositionOfPlayer4 + " )" + " Sweedal's Balance ( " + balanceOfPlayer4 + " )");
 
 			if (balanceOfPlayer1 <= 0 || balanceOfPlayer2 <= 0 || balanceOfPlayer3 <= 0 || balanceOfPlayer4 <= 0) {
 				printFooter();
 //                System.exit(0);
+				break;
 			}
 			Utility.printDash();
 		}
@@ -152,14 +172,14 @@ public class Monopoly {
 		Utility.printHash();
 		Utility.printStar();
 		System.out.println();
-		System.out.println("\t\t\t\t\t\tGame Over");
-		System.out.println("\t\t\t\t\t\t--------------");
+		System.out.println("\t\t\t\t\t\t\tGame Over");
+		System.out.println("\t\t\t\t\t\t----------------");
 		System.out.println();
 
-		System.out.println("\t\t\t* * *  1. Peter's Balance ( " + balanceOfPlayer1 + " )\t \t * * * ");
-		System.out.println("\t\t\t* * *  2. Billy's Balance ( " + balanceOfPlayer2 + " ) \t * * * ");
-		System.out.println("\t\t\t* * *  3. Charlotte's Balance ( " + balanceOfPlayer3 + " ) * * * ");
-		System.out.println("\t\t\t* * *  4. Sweedal's Balance ( " + balanceOfPlayer4 + " )\t * * * ");
+		System.out.println("\t\t\t* * *  1. Peter's Balance ( " + balanceOfPlayer1 + " )");
+		System.out.println("\t\t\t* * *  2. Billy's Balance ( " + balanceOfPlayer2 + " )");
+		System.out.println("\t\t\t* * *  3. Charlotte's Balance ( " + balanceOfPlayer3 + " )");
+		System.out.println("\t\t\t* * *  4. Sweedal's Balance ( " + balanceOfPlayer4 + " ) ");
 		System.out.println();
 
 		board.getPlayers().get("Peter").printAllOwnedProperties();
