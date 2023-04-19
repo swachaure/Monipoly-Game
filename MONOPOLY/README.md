@@ -1,8 +1,8 @@
-## Woven coding test
+## Monopoly Game simulator Practice
 
-Your task is to write an application to play the game of Woven Monopoly.
+Your task is to write an application to play the game of Monopoly.
 
-In Woven Monopoly, when the dice rolls are set ahead of time, the game is deterministic.
+In Monopoly, when the dice rolls are set ahead of time, the game is deterministic.
 
 ### Game rules
 * There are four players who take turns in the following order:
